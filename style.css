@@ -53,6 +53,7 @@
     background-color: #ff863f;
     border: solid 5px #fff;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .right-contets:last-child {
@@ -64,3 +65,51 @@
     background-color: #d98d30;
 }
 
+@media screen and (max-width: 479px){
+    .wrapper {
+        width: 200px;
+    }
+
+    .header{
+        width : 200px;
+        height: 200px;
+    }
+
+    .menu {
+        width: 60px;
+        background-color: #fff;
+        display: block;
+        top: 20px;
+        right: 70px;
+    }
+
+    .nemu-contents {
+        height: 40px;
+        width: 40px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .nemu-contents:last-child {
+        margin-bottom: 10px;
+    }
+
+
+    .left {
+        height: 100px;
+        width: 200px;
+    }
+
+    .right {
+        height: 200px;
+        width: 200px;
+        padding: 20px 0 0 30px;
+    }
+
+    .main {
+        display: contents;
+    }
+
+    .footer {
+        width: 200px;
+    }
+}
